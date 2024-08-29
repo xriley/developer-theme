@@ -107,6 +107,16 @@ a.btn-cta-secondary:hover, a.btn-cta-secondary:not(:disabled):not(.disabled):act
   background-clip: padding-box;
 }
 
+.badge-theme1 {
+  background: sandybrown;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 2px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
 a.dotted-link {
   border-bottom: 1px dotted #778492;
   color: #778492;
