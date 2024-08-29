@@ -425,7 +425,7 @@ a.dotted-link:hover {
   font-size: 16px;
   position: relative;
   margin-top: 0;
-  margin-bottom: 10;
+  margin-bottom: 10px;
 }
 
 .skills .skillset .level-title .level-label {
@@ -825,15 +825,6 @@ body[data-theme="dark"] .text-muted {
   .header .btn {
     margin-top: 30px;
     float: none !important;
-  }
-  .project-image {
-    margin-bottom: 15px;
-    width: 100%;             /* Ensure the image takes up the full width of its container */
-    height: 0;               /* We will calculate the height based on padding to enforce the 4:3 ratio */
-    padding-bottom: 56.25%;     /* 4:3 aspect ratio (3/4 = 0.75) */
-    object-fit: cover;       /* Ensure the image scales properly within the container */
-    border-radius: 8px;      /* Optional: Add some rounding to the corners */
-    overflow: hidden;        /* Ensures the image does not overflow out of the container */
   }
 }
 
