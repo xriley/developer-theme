@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #3AAA64;
+  color: slategray;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -32,7 +32,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #2d844e;
+  color: #434343;
 }
 
 a:focus {
@@ -99,6 +99,16 @@ a.btn-cta-secondary:hover, a.btn-cta-secondary:not(:disabled):not(.disabled):act
 
 .badge-theme {
   background: #3AAA64;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 2px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+.badge-theme1 {
+  background: sandybrown;
   font-size: 12px;
   color: #fff;
   border-radius: 2px;
@@ -415,7 +425,7 @@ a.dotted-link:hover {
   font-size: 16px;
   position: relative;
   margin-top: 0;
-  margin-bottom: 10;
+  margin-bottom: 10px;
 }
 
 .skills .skillset .level-title .level-label {
@@ -815,9 +825,6 @@ body[data-theme="dark"] .text-muted {
   .header .btn {
     margin-top: 30px;
     float: none !important;
-  }
-  .project-image {
-    margin-bottom: 15px;
   }
 }
 
